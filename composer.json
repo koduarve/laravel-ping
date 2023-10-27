@@ -16,6 +16,12 @@
       "Koduarve\\Ping\\": "src/"
     }
   },
+  "repositories": [
+    {
+      "type": "git",
+      "url": "http://github.com/koduarve/laravel-ping"
+    }
+  ],
   "minimum-stability": "dev-stable",
   "prefer-stable": true,
   "require": {
