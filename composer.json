@@ -28,5 +28,6 @@
         "Ping": "Koduarve\\Ping\\Facades\\Ping"
       }
     }
-  }
+  },
+  "minimum-stability": "stable"
 }
