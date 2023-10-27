@@ -1,6 +1,5 @@
 {
   "name": "koduarve/laravel-ping",
-  "type": "library",
   "description": "Simple Ping For Laravel Applications",
   "license": "MIT",
   "authors": [
