@@ -1,31 +1,15 @@
 {
   "name": "koduarve/laravel-ping",
   "description": "Simple Ping For Laravel Applications",
+  "require": {
+    "illuminate/support": "^5.1 || ^5.7 || ^5.8 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
+    "guzzlehttp/guzzle": "^6.0"
+  },
   "license": "MIT",
-  "authors": [
-    {
-      "name": "KODUARVE OU",
-      "email": "dev@koduarve.ee",
-      "homepage": "https://github.com/koduarve",
-      "role": "Developer"
-    }
-  ],
   "autoload": {
     "psr-4": {
       "Koduarve\\Ping\\": "src/"
     }
-  },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "http://github.com/koduarve/laravel-ping"
-    }
-  ],
-  "minimum-stability": "dev-stable",
-  "prefer-stable": true,
-  "require": {
-    "illuminate/support": "^5.1 || ^5.7 || ^5.8 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
-    "guzzlehttp/guzzle": "^6.0"
   },
   "extra": {
     "laravel": {
@@ -36,5 +20,12 @@
         "Ping": "Koduarve\\Ping\\Facades\\Ping"
       }
     }
-  }
+  },
+  "authors": [
+    {
+      "name": "KODUARVE OÜ",
+      "email": "dev@koduarve.ee"
+    }
+  ],
+  "minimum-stability": "dev"
 }
