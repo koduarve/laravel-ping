@@ -1,0 +1,32 @@
+{
+  "name": "koduarve/laravel-ping",
+  "description": "Simple Ping For Laravel Applications",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "KODUARVE OU",
+      "email": "dev@koduarve.ee",
+      "homepage": "https://github.com/koduarve",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Koduarve\\Ping\\": "src/"
+    }
+  },
+  "require": {
+    "illuminate/support": "^5.1 || ^5.7 || ^5.8 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0 || ^11.0",
+    "guzzlehttp/guzzle": ">=6.0"
+  },
+   "extra": {
+    "laravel": {
+      "providers": [
+        "Koduarve\\Ping\\PingServiceProvider"
+      ],
+      "aliases": {
+        "Ping": "Koduarve\\Ping\\Facades\\Ping"
+      }
+    }
+  }
+}
