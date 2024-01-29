@@ -12,6 +12,7 @@ class PingServiceProvider extends ServiceProvider
 	 * @var bool
 	 */
 	protected $defer = true;
+	protected $host;
 
 	/**
 	 * Register the service provider.
@@ -21,7 +22,7 @@ class PingServiceProvider extends ServiceProvider
 	public function register()
 	{
 		$this->app->singleton('ping', function ($app) {
-			return new Ping();
+			return new Ping($this->host);
 		});
 	}
 
