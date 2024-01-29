@@ -232,6 +232,7 @@ class Ping
 		}
 		return null;
 	}
+
 	/**
 	 * Ping a host.
 	 *
